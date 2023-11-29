@@ -1,0 +1,62 @@
+:root {
+  --primary-clr: #4070f4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+button {
+  width: 100%;
+  padding: 0.7rem;
+  background-color: var(--primary-clr);
+  font-weight: 600;
+  color: #fff;
+  border: none;
+}
+
+.wrapper {
+  /* width: 12rem; */
+  height: 100vh;
+  background-color: var(--primary-clr);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #fff;
+  padding: 1.6rem;
+  border-radius: 0.5rem;
+  max-width: 30rem;
+  text-align: center;
+}
+
+.form-title h2 {
+  font-weight: 700;
+}
+
+.input-box {
+  margin: 1.5rem 0;
+}
+
+input {
+  padding: 0.8rem;
+  width: 22rem;
+  border: 1px solid #0f0f0f;
+}
+
+h2 {
+  font-weight: 600;
+}

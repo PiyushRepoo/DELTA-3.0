@@ -1,0 +1,89 @@
+/* Universal selector */
+*{
+    font-family: 'Courier New';
+}
+
+
+/* Element selector */
+h3 {
+    color: purple;
+}
+
+h1 {
+    color: #b92b27;
+}
+
+/* ID selector */
+#login {
+    background-color: #fff;
+}
+#login:hover {
+    background-color: rgb(6, 237, 102);
+    color: #fff;
+}
+
+#login:active {
+    background-color: rgb(202, 6, 237);
+}
+#signup {
+    background-color: #b92b27;
+    color: #fff;
+}
+
+/* class selector */
+.upvote {
+    background-color: green;
+    color: #fff;
+}
+
+/* descendant selector */
+.post a {
+    color: rgb(225, 30, 225);
+    background-color: yellow;
+}
+
+nav a {
+    color: #000;
+}
+
+/* sibling selector */
+p + h3 {
+    text-decoration: underline;
+}
+
+.upvote + button {
+    background-color: rgb(116, 52, 2);
+    color: #fff;
+}
+
+
+/* child combinator */
+div > input {
+    background-color: rgb(235, 235, 46);
+}
+
+h1 > button{
+    background-color: blue;
+}
+
+/* Attribute selector */
+input[type="text"] {
+    color: rgb(54, 47, 255);
+}
+
+input[type="password"] {
+    color: red;
+}
+
+div[id="myId"] p {
+    color: green;
+}
+
+input[id="notcheck"]:checked + label {
+    color: red;
+    font-weight: bold;
+}
+input[id="check"]:checked + label {
+    color: rgb(132, 215, 8);
+    font-weight: bold;
+}

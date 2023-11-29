@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .redBox {
+        width: 200px;
+        height: 200px;
+        background-color: yellow;
+        border-radius: 50%;
+        display: none;
+      }
+
+      #redBox:checked + .redBox {
+        display: block;
+      }
+
+      .greenBox {
+        width: 200px;
+        height: 200px;
+        background-color: lightseagreen;
+        border-radius: 50%;
+        display: none;
+      }
+
+      #greenBox:checked + .greenBox {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>What you want see red box or green box ?</h3>
+    <div>
+      <label for="redBox">Red Box</label>&nbsp;&nbsp;
+      <input type="checkbox" name="redBox" id="redBox" />
+      <div class="redBox"></div>
+    </div>
+    <br /><br />
+    <div>
+      <label for="greenBox">Green Box</label>&nbsp;&nbsp;
+      <input type="checkbox" name="greenBox" id="greenBox" />
+      <div class="greenBox"></div>
+    </div>
+  </body>
+</html>

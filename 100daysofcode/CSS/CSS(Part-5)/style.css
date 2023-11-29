@@ -1,0 +1,44 @@
+/* Flex Direction */
+.flex {
+    width: 90%;
+    height: 1000px;
+    margin: 0 auto;
+    border: 2px solid teal;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    flex-wrap: wrap;
+    align-items: baseline;
+    align-content: baseline;
+}
+
+.flexItem {
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    /* margin-right: 20px; */
+}
+
+.flexItem2{
+    background-color: lightblue;
+}
+
+.flexItem3 {
+    background-color: lightseagreen;
+}
+
+.flexItem4 {
+    background-color: lightcoral;
+}
+
+.flexItem5 {
+    background-color: sienna;
+}
+
+.flexItem6 {
+    background-color: darkcyan;
+}
+
+.flexItem7 {
+    background-color: tan;
+}

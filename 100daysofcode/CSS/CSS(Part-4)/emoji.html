@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        .emoji {
+            width: 200px;
+            height: 200px;
+            background-color: #ffa511;
+            margin: 200px auto;
+            border-radius: 50%;
+            position: relative;
+        }
+
+        .eye:nth-of-type(1) {
+            width: 30px;
+            height: 30px;
+            background-color: #000;
+            border-radius: 50%;
+            position: absolute;
+            top: 50px;
+            right: 45px;
+        }
+
+        .eye:nth-of-type(2) {
+            width: 30px;
+            height: 30px;
+            background-color: #000;
+            border-radius: 50%;
+            position: absolute;
+            top: 50px;
+            left: 45px;
+        }
+
+        .mouth {
+            width: 100px;
+            height: 45px;
+            background-color: brown;
+            position: absolute;
+            bottom: 30px;
+            left: 50px;
+            border-bottom-left-radius: 40px;
+            border-bottom-right-radius: 40px;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="emoji">
+      <div class="eyes">
+        <div class="eye"></div>
+        <div class="eye"></div>
+      </div>
+      <div class="mouth"></div>
+    </div>
+  </body>
+</html>
