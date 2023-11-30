@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box {
+    height: 100px;
+    width: 150px;
+    background-color: lightsteelblue;
+}
+
+.box:hover {
+    animation: AnimateWidth 2s ease-in-out;
+}
+
+/* h1 {
+    animation-name: zoom;
+    animation-duration: 2s;
+    animation-delay: 0;
+    animation-direction: normal;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+} */
+
+@keyframes AnimateWidth {
+    from {
+        width: 150px;
+    }
+    to {
+        width: 300px;
+    }
+}
+
+@keyframes zoom {
+    from {
+        font-size: 20px;
+    }
+    to {
+        font-size: 40px;
+    }
+}
