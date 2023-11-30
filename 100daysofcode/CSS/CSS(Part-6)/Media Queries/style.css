@@ -1,28 +1,32 @@
+/* Width */
 /* @media (width: 400px) {
     body {
         background-color: red;
     }
 } */
 
+/* Min-Width */
 /* @media (min-width: 200px) {
     body {
         background-color: salmon;
     }
 } */
 
+/* Max-Width */
 /* @media (max-width: 500px) {
     body {
         background-color: blue;
     }
 } */
 
-
+/* Min-Width and Max-Width */
 /* @media (min-width: 600px) and (max-width: 700px) {
     body {
         background-color: lightseagreen;
     }
 } */
 
+/* Orientation */
 /* @media (orientation: landscape) {
     body {
         background-color: purple;
