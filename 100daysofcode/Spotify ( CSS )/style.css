@@ -490,3 +490,9 @@ i {
   margin-top: -6px;
 }
 
+@media (max-width: 910px) {
+  .sidebar {
+    display: none;
+  }
+  
+}
