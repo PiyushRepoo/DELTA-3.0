@@ -214,7 +214,7 @@ i {
   font-size: 1.2rem;
 }
 
-.sticky_nav_right > .btn:hover {
+.sticky_nav_right > i:hover {
   opacity: 1;
 }
 
