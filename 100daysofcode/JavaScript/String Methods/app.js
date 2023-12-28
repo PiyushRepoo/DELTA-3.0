@@ -59,7 +59,7 @@
 // console.log(name.replace("Apna", "Our")); // OurCollge
 
 // Seperate the "College" part from below string and replace "l" with "t" in it.
-let msg = "ApnaCollege";
-let newMsg = msg.slice(4).replace("l", "t").replace("l", "t");
-console.log(newMsg);
+// let msg = "ApnaCollege";
+// let newMsg = msg.slice(4).replace("l", "t").replace("l", "t");
+// console.log(newMsg);
 
